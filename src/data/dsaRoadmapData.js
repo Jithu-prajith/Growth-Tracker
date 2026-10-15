@@ -1,0 +1,222 @@
+// 18 Sequential DSA Topics from Striver's A2Z Sheet
+// User must manually mark each topic done before the next unlocks
+// Always starts from Topic 1: Learn the Basics
+
+export const INITIAL_DSA_TOPICS = [
+  {
+    id: 'dsa-t1',
+    topicNumber: 1,
+    name: 'Learn the Basics',
+    description: 'Language basics, basic maths, basic recursion, basic hashing',
+    estTime: '8 hrs',
+    estHours: 8,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t2',
+    topicNumber: 2,
+    name: 'Learn Important Sorting Techniques',
+    description: 'Selection sort, Bubble sort, Insertion sort, Merge sort, Quick sort',
+    estTime: '6 hrs',
+    estHours: 6,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t3',
+    topicNumber: 3,
+    name: 'Solve Problems on Arrays (Easy → Medium → Hard)',
+    description: 'Largest element, second largest, remove duplicates, 2-sum, Kadane, Next permutation',
+    estTime: '15 hrs',
+    estHours: 15,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t4',
+    topicNumber: 4,
+    name: 'Binary Search (1D, 2D Arrays, Search Space)',
+    description: 'Lower/Upper bound, search insert, rotation count, search space reduction',
+    estTime: '12 hrs',
+    estHours: 12,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t5',
+    topicNumber: 5,
+    name: 'Strings (Basic and Medium)',
+    description: 'Reverse words, isomorphic, anagrams, roman to integer, longest palindrome substring',
+    estTime: '8 hrs',
+    estHours: 8,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t6',
+    topicNumber: 6,
+    name: 'Learn LinkedList (Single LL, Double LL, Medium, Hard Problems)',
+    description: 'Insert/delete, reverse LL, detect cycle, find middle, merge 2 sorted LL, LRU cache',
+    estTime: '12 hrs',
+    estHours: 12,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t7',
+    topicNumber: 7,
+    name: 'Recursion (PatternWise)',
+    description: 'Subsequences pattern, combination sum, subset sum, N-Queens, Palindrome partitioning',
+    estTime: '10 hrs',
+    estHours: 10,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t8',
+    topicNumber: 8,
+    name: 'Bit Manipulation (Concepts & Problems)',
+    description: 'Check i-th bit, count set bits, single number, power set using bitwise',
+    estTime: '6 hrs',
+    estHours: 6,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t9',
+    topicNumber: 9,
+    name: 'Stack and Queues (Learning, Pre-In-Post-fix, Monotonic Stack, Implementation)',
+    description: 'Stack/Queue with arrays/LL, Next Greater Element, Trapping Rainwater, Largest rectangle',
+    estTime: '12 hrs',
+    estHours: 12,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t10',
+    topicNumber: 10,
+    name: 'Sliding Window & Two Pointer Combined Problems',
+    description: 'Longest substring without repeat, max consecutive ones, fruit into baskets',
+    estTime: '10 hrs',
+    estHours: 10,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t11',
+    topicNumber: 11,
+    name: 'Heaps (Learning, Medium, Hard Problems)',
+    description: 'Min/Max heap, Kth largest element, merge K sorted lists, find median from stream',
+    estTime: '8 hrs',
+    estHours: 8,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t12',
+    topicNumber: 12,
+    name: 'Greedy Algorithms (Easy, Medium, Hard)',
+    description: 'Assign cookies, fractional knapsack, N meetings in one room, jump game',
+    estTime: '8 hrs',
+    estHours: 8,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t13',
+    topicNumber: 13,
+    name: 'Binary Trees (Traversals, Medium and Hard Problems)',
+    description: 'Pre/In/Postorder, level order, max depth, diameter, LCA, top/bottom view',
+    estTime: '14 hrs',
+    estHours: 14,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t14',
+    topicNumber: 14,
+    name: 'Binary Search Trees (Concept and Problems)',
+    description: 'Search in BST, floor/ceil, insert/delete, validate BST, BST iterator, two sum in BST',
+    estTime: '10 hrs',
+    estHours: 10,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t15',
+    topicNumber: 15,
+    name: 'Graphs (Concepts & Problems)',
+    description: 'BFS, DFS, cycle detection, topological sort, Dijkstra, Bellman Ford, Disjoint Set Union',
+    estTime: '18 hrs',
+    estHours: 18,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t16',
+    topicNumber: 16,
+    name: 'Dynamic Programming (Patterns and Problems)',
+    description: '1D DP, 2D grid DP, DP on sub-sequences (0/1 Knapsack), DP on strings (LCS), DP on stocks',
+    estTime: '20 hrs',
+    estHours: 20,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t17',
+    topicNumber: 17,
+    name: 'Tries',
+    description: 'Insert, search, startsWith, complete string, maximum XOR of two numbers',
+    estTime: '6 hrs',
+    estHours: 6,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  },
+  {
+    id: 'dsa-t18',
+    topicNumber: 18,
+    name: 'Strings (Advanced)',
+    description: 'Z-algorithm, KMP algorithm, Rabin Karp string matching',
+    estTime: '6 hrs',
+    estHours: 6,
+    completed: false,
+    loggedHours: 0,
+    notes: '',
+    striverUrl: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2'
+  }
+];
