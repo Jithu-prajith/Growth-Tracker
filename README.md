@@ -1,5 +1,10 @@
 # Shri Prajith S — Personal Growth Dashboard
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-growth--tracker--ashy.vercel.app-success?style=for-the-badge&logo=vercel)](https://growth-tracker-ashy.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/Jithu-prajith/Growth-Tracker)
+
+🌐 **Live App**: [https://growth-tracker-ashy.vercel.app/](https://growth-tracker-ashy.vercel.app/)
+
 > **Target**: 12LPA+ at ServiceNow / Zoho / Freshworks (within 2 years)  
 > **Mission**: Buy a house for parents & retire to a hill farm running a school for tribal children.  
 > **Identity**: B.E. Artificial Intelligence & Machine Learning (2024–2028), VSB Engineering College, Karur.
@@ -90,6 +95,13 @@
 - Works offline out of the box with zero setup via reactive `localStorage`.
 - Connects to Google Sign-In and Firebase Cloud Firestore when API keys are added.
 - One-click JSON backup export & restore.
+
+---
+
+## 🌐 Live Deployment
+
+The dashboard is deployed live and accessible at:
+👉 **[https://growth-tracker-ashy.vercel.app/](https://growth-tracker-ashy.vercel.app/)**
 
 ---
 
